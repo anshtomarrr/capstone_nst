@@ -487,7 +487,7 @@ text-decoration-skip-ink: none;
     background-image: url('https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-black-icon.png'); /
   }
   
-  @media (max-width: 600px) {
+ @media (max-width: 600px) {
     .email-input {
       width: 200px;
     }
@@ -502,3 +502,62 @@ text-decoration-skip-ink: none;
       height: 30px;
     }
   }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header a {
+        font-size: 1.2rem;
+    }
+    .main1 h2 {
+        font-size: 2rem;
+    }
+    .project {
+        width: 95%;
+    }
+    .what-i-do {
+        padding: 24px 0;
+    }
+    .visionary_creator h2 {
+        font-size: 1.5rem;
+    }
+    .visionary_creator2 img {
+        max-height: 400px;
+    }
+    .d {
+        flex-direction: column;
+    }
+    .buttonLarge {
+        width: 100%;
+    }
+    .form input {
+        width: 90%;
+    }
+    .email-input {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    header a {
+        font-size: 1rem;
+    }
+    .main1 h2 {
+        font-size: 1.5rem;
+    }
+    .project {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .visionary_creator h2 {
+        font-size: 1.2rem;
+    }
+    .stay-connected h1 {
+        font-size: 1.5rem;
+    }
+}
