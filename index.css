@@ -1,8 +1,7 @@
-body{
-background-color: #FFFFFF;
-padding: 0px 48px 0px 48px;
-gap: 0px;
-opacity: 0px;
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0 2%; 
 }
 
 header{
@@ -56,14 +55,14 @@ height: 120px;
 gap: 0px;
 opacity: 0px;
 font-family: DotGothic16;
-font-size: 120px;
 font-weight: 400;
 line-height: 120px;
 letter-spacing: -0.02em;
-text-align: center;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: #000000;
+font-size: 7vw; 
+text-align: center;
 }
 .main1{
     display:flex;
@@ -74,10 +73,12 @@ color: #000000;
     justify-content: center;
 }
 .main2 img{
-width: 1344px;
 height: 672px;
 gap: 0px;
-border-top: 1px solid #000000
+border-top: 1px solid #000000;
+width: 100%; 
+height: auto; 
+
 }
 .img-box{
   display: flex;
@@ -95,11 +96,12 @@ border-top: 1px solid #000000
 }
 
 .project img{
-    width: 416px;
     height: 277px;
     gap: 0px;
     opacity: 0px;
     border-top: 1px solid #000000;
+    width: 100%; 
+    max-width: 416px; 
 }
 .project h3 {
     width: 416px;
@@ -206,12 +208,13 @@ border-top: 1px solid #000000
 
 }
 .visionary_creator2 img{
-    width: 1344px;
     height: 810px;
     gap: 0px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-    border-top: 1px solid #000000
+    border-top: 1px solid #000000;
+    width: 100%;
+    max-width: 1506px;
 }
 
 .divider {
@@ -247,13 +250,15 @@ text-decoration-skip-ink: none;
 }
 
 .buttonLarge {
-  width: 155px;
+
   height: 48px;
   padding: 12px 24px 12px 24px;
   gap: 0px;
   opacity: 0px;
   background: #2419F3;
   color: white;  
+  width: 100%; 
+  max-width: 200px; 
 }
 .parchota{
     font-family: Archivo;
@@ -487,7 +492,7 @@ text-decoration-skip-ink: none;
     background-image: url('https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-black-icon.png'); /
   }
   
- @media (max-width: 600px) {
+  @media (max-width: 600px) {
     .email-input {
       width: 200px;
     }
@@ -507,6 +512,7 @@ text-decoration-skip-ink: none;
     header {
         flex-direction: column;
         align-items: flex-start;
+        padding: 16px 0;
     }
     header a {
         font-size: 1.2rem;
@@ -519,6 +525,9 @@ text-decoration-skip-ink: none;
     }
     .what-i-do {
         padding: 24px 0;
+    }
+    .what-i-do h2 {
+        font-size: 1.5rem; 
     }
     .visionary_creator h2 {
         font-size: 1.5rem;
@@ -540,7 +549,7 @@ text-decoration-skip-ink: none;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     header h1 {
         font-size: 1.8rem;
     }
